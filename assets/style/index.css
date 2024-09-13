@@ -365,7 +365,7 @@ header nav .nav-right ul li i:hover {
     padding: 10px;
   }
 }
-.bloc-2 .text-to-the-left {
+.bloc-2 .info-right .text-to-the-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,7 +374,7 @@ header nav .nav-right ul li i:hover {
           align-items: start;
   gap: 35px;
 }
-.bloc-2 .border-none {
+.bloc-2 .info-right .border-none {
   border: none;
 }
 

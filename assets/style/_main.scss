@@ -227,15 +227,15 @@
         }
       }
     }
-  }
 
-  .text-to-the-left {
-    display: flex;
-    align-items: start;
-    gap: 35px;
-  }
+    .text-to-the-left {
+      display: flex;
+      align-items: start;
+      gap: 35px;
+    }
 
-  .border-none {
-    border: none;
+    .border-none {
+      border: none;
+    }
   }
 }
