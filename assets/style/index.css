@@ -254,16 +254,13 @@ header nav .nav-right ul li i:hover {
   width: 70%;
   height: 80vh;
   margin: 30px auto 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 90px;
-  padding: 4%;
+  display: grid;
+  grid-template-columns: 50% 50%;
   position: relative;
 }
 .bloc-2 .info-left {
   height: 100%;
-  width: 44%;
+  padding: 10%;
 }
 .bloc-2 .info-left::after {
   content: "";
@@ -280,7 +277,9 @@ header nav .nav-right ul li i:hover {
 .bloc-2 .info-left form div {
   padding-bottom: 20px;
 }
-.bloc-2 .info-left form label, .bloc-2 .info-left form input, .bloc-2 .info-left form textarea {
+.bloc-2 .info-left form label,
+.bloc-2 .info-left form input,
+.bloc-2 .info-left form textarea {
   display: block;
   width: 100%;
   padding-bottom: 15px;
@@ -294,7 +293,8 @@ header nav .nav-right ul li i:hover {
   border-radius: 5px;
   outline: none;
 }
-.bloc-2 .info-left form input, .bloc-2 .info-left form textarea {
+.bloc-2 .info-left form input,
+.bloc-2 .info-left form textarea {
   border: 1px solid rgb(208, 208, 208);
 }
 .bloc-2 .info-left form textarea {
@@ -315,9 +315,7 @@ header nav .nav-right ul li i:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 110px;
   height: 100%;
-  width: 44%;
 }
 .bloc-2 .info-right .contact-item {
   display: -webkit-box;
@@ -327,7 +325,9 @@ header nav .nav-right ul li i:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 35px;
-  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgb(208, 208, 208);
+  padding: 10%;
 }
 .bloc-2 .info-right .contact-item h4 {
   font-family: "Inter";
@@ -336,6 +336,7 @@ header nav .nav-right ul li i:hover {
   font-weight: 700;
   letter-spacing: 2px;
   color: rgb(9, 9, 10);
+  width: 83px;
 }
 .bloc-2 .info-right .contact-item p {
   color: rgb(128, 128, 128);
@@ -344,7 +345,7 @@ header nav .nav-right ul li i:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 @media (max-width: 1150px) {
   .bloc-2 .info-right .contact-item ul {
@@ -364,7 +365,7 @@ header nav .nav-right ul li i:hover {
     padding: 10px;
   }
 }
-.bloc-2 .info-right .contact-item-1 {
+.bloc-2 .text-to-the-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,6 +373,9 @@ header nav .nav-right ul li i:hover {
       -ms-flex-align: start;
           align-items: start;
   gap: 35px;
+}
+.bloc-2 .border-none {
+  border: none;
 }
 
 body {
