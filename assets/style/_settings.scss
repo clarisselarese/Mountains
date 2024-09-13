@@ -1,0 +1,21 @@
+$black: rgb(9, 9, 10);
+$white: rgb(247, 249, 253);
+$darkgrey: rgb(128, 128, 128);
+$hellgrey: rgb(208, 208, 208);
+
+
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+* {
+    font-family: "Merriweather";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}

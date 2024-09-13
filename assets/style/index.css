@@ -1,0 +1,413 @@
+* {
+  font-family: "Merriweather";
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+header {
+  height: 70vh;
+}
+header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 70px 0 70px 0;
+}
+header .header-content a {
+  color: rgb(247, 249, 253);
+  border: 1.5px solid rgb(247, 249, 253);
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-top: 50px;
+  padding: 20px;
+}
+header h1 {
+  font-family: "Inter";
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(247, 249, 253);
+  padding: 40px 0;
+  -webkit-filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.277));
+          filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.277));
+}
+header p {
+  color: rgb(247, 249, 253);
+  text-align: center;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.252);
+}
+header nav .nav-left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .nav-left ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .nav-left ul a {
+  color: rgb(247, 249, 253);
+  font-family: "Inter";
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+header nav .nav-left ul a:hover {
+  color: rgb(9, 9, 10);
+}
+header nav .nav-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .nav-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .nav-right ul li {
+  padding: 20px;
+}
+header nav .nav-right ul li i {
+  font-size: 1.2rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: rgb(247, 249, 253);
+}
+header nav .nav-right ul li i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.bloc-1 {
+  background: rgb(247, 249, 253);
+  width: 70%;
+  margin: 80px auto 0;
+}
+.bloc-1 .section-1 {
+  padding: 7% 12%;
+  margin-bottom: 20px;
+}
+.bloc-1 .section-1 .date {
+  text-align: center;
+  font-size: 1.3rem;
+  position: relative;
+  color: rgb(128, 128, 128);
+}
+.bloc-1 .section-1 .date::before {
+  content: "";
+  background: rgb(208, 208, 208);
+  height: 1px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+.bloc-1 .section-1 .date::after {
+  content: "";
+  background: rgb(208, 208, 208);
+  height: 1px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+.bloc-1 .section-1 h2 {
+  font-family: "Inter";
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px 0 30px;
+}
+.bloc-1 .section-1 p {
+  text-align: center;
+  line-height: 35px;
+}
+.bloc-1 .section-1 .img-big {
+  background: url(../img/pic01.jpg) no-repeat center/cover;
+  height: 400px;
+  width: 100%;
+  margin: 30px 0 40px;
+}
+.bloc-1 .section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid rgb(208, 208, 208);
+}
+.bloc-1 .section-2 .article-1 {
+  border-right: 1px solid rgb(208, 208, 208);
+}
+.bloc-1 .section-2 .article {
+  padding: 7% 6%;
+}
+.bloc-1 .section-2 .article .date {
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+.bloc-1 .section-2 .article h3 {
+  font-family: "Inter";
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 20px 0;
+}
+.bloc-1 .section-2 .article .img-small-1 {
+  background: url(../img/pic02.jpg) no-repeat center/cover;
+  height: 280px;
+  width: 100%;
+  margin: 20px 0;
+}
+.bloc-1 .section-2 .article .img-small-2 {
+  background: url(../img/pic03.jpg) no-repeat center/cover;
+  height: 280px;
+  width: 100%;
+  margin: 20px 0;
+}
+.bloc-1 .section-2 .article .txt-article {
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.bloc-2 {
+  background: rgb(247, 249, 253);
+  width: 70%;
+  height: 80vh;
+  margin: 30px auto 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 90px;
+  padding: 4%;
+  position: relative;
+}
+.bloc-2 .info-left {
+  height: 100%;
+  width: 44%;
+}
+.bloc-2 .info-left::after {
+  content: "";
+  position: absolute;
+  background: rgb(208, 208, 208);
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 50%;
+}
+.bloc-2 .info-left form {
+  width: 100%;
+}
+.bloc-2 .info-left form div {
+  padding-bottom: 20px;
+}
+.bloc-2 .info-left form label, .bloc-2 .info-left form input, .bloc-2 .info-left form textarea {
+  display: block;
+  width: 100%;
+  padding-bottom: 15px;
+  font-family: "Inter";
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(9, 9, 10);
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+}
+.bloc-2 .info-left form input, .bloc-2 .info-left form textarea {
+  border: 1px solid rgb(208, 208, 208);
+}
+.bloc-2 .info-left form textarea {
+  resize: none;
+  height: 140px;
+  margin-bottom: 20px;
+}
+.bloc-2 .info-left form .button-form {
+  width: 180px;
+  text-align: left;
+  padding: 10px 20px;
+  color: rgb(9, 9, 10);
+  margin: 0;
+  border: 1.5px solid rgb(9, 9, 10);
+  border-radius: 0;
+}
+.bloc-2 .info-right {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 110px;
+  height: 100%;
+  width: 44%;
+}
+.bloc-2 .info-right .contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35px;
+  width: 100%;
+}
+.bloc-2 .info-right .contact-item h4 {
+  font-family: "Inter";
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(9, 9, 10);
+}
+.bloc-2 .info-right .contact-item p {
+  color: rgb(128, 128, 128);
+}
+.bloc-2 .info-right .contact-item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1150px) {
+  .bloc-2 .info-right .contact-item ul {
+    gap: 10px;
+  }
+}
+.bloc-2 .info-right .contact-item ul i {
+  font-size: 1.2rem;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+@media (max-width: 1150px) {
+  .bloc-2 .info-right .contact-item ul i {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+.bloc-2 .info-right .contact-item-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 35px;
+}
+
+body {
+  background: url(../img/bg.jpg) center/cover fixed;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.button {
+  height: 44px;
+  width: 160px;
+  border: 1.5px solid rgb(9, 9, 10);
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(9, 9, 10);
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.button:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,112 @@
+header {
+
+    height: 70vh;
+
+    .header-content {
+        @include flexCenter;
+        flex-direction: column;
+        height: 100%;
+        padding: 70px 0 70px 0;
+   
+
+        a {
+            color: $white;
+            border: 1.5px solid $white;
+            width: 60px;
+            height: 60px;
+            border-radius: 100px;
+            @include flexCenter;
+            text-decoration: none;
+            margin-top: 50px; 
+            padding: 20px;
+        }
+    }
+
+    h1{
+        font-family: 'Inter';
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+        color: $white;
+        padding: 40px 0;
+        filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.277));
+    }
+
+    p {
+        color: $white;
+        text-align: center;
+    }
+
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 80px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.252);
+
+        .nav-left {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+                a {
+                    color: $white;
+                    font-family: 'Inter';
+                    font-size: 0.8rem;
+                    font-weight: 800;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: 0 20px;
+
+        
+                    &:hover {
+                        color: $black;
+                    }
+                }
+        }
+    }
+
+
+        .nav-right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                li {
+
+                    padding: 20px;
+
+                    i {
+                        font-size: 1.2rem;
+                        transition: 0.3s;
+                        color: $white;
+            
+                        &:hover { 
+                            transform: scale(1.2);
+                
+                        }
+                    }
+
+                }
+            }
+        }    
+    } 
+}
